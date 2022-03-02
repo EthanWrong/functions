@@ -34,7 +34,7 @@ def ticket_sales():
             print(f"{c_sales} for children; and")
             print(f"{g_sales}  gift vouchers")
             print()
-            print(f"Sales for the day came to ${total_sales}")
+            print(f"Sales for the day came to ${total_sales:.2f}")
             print("=============================================")
         print()
 
