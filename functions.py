@@ -1,6 +1,5 @@
 # NB: for some functions I have asked the user to input values, and for others I have called the values myself.
 #     I want to show that I can do both.
-#     Please uncomment an exercise in the main routine to test it.
 
 # exercise 1
 def addition():
@@ -139,7 +138,7 @@ def ticket_sales():
         print()
 
 
-# MAIN ROUTINE (each function called is in order of exercises)
+# MAIN ROUTINE
 
 # print("Exercise 1: ")
 # print(f"The sum of the two numbers is: {addition()}")
