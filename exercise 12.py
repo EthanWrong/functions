@@ -2,7 +2,9 @@
 #     I want to show that I can do both.
 
 # exercise 12
-def ticket_sales():
+def ticket_sales(notices):
+    print("Welcome to the Reading Cinemas Pro Maximum Ticket Sales software! ")
+    print(f"Today's notices include: {notices}")
     want_to_sell = "y"
     a_sales = 0
     s_sales = 0
@@ -42,4 +44,4 @@ def ticket_sales():
 # MAIN ROUTINE
 
 print("Exercise 12: ")
-ticket_sales()
+ticket_sales("Out of hot sauce till Wednesday.")
